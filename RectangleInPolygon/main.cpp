@@ -3,17 +3,9 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "main.h"
 #include "time.h"
-//#include "Library.h"
 #include <filesystem>
 #include <iostream>
 #include "../Library/Library.h"
-
-std::string elim_string[ 4 ] { "f(a) after c   &&  g(c) after a   eliminate everything  before c",
-"f(a) after c   &&  g(c) before a  eliminate everything  after a",
-"f(a) before c  &&  g(c) after a   eliminate everything  before a",
-"f(a) before c  &&  g(c) before a  eliminate everything  after c" };
-  
-
 
 
 int main() {
