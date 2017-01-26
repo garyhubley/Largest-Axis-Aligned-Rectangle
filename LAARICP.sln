@@ -4,6 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LAARICP", "LAARICP\LAARICP.vcxproj", "{AB24DB8C-E3CB-42A7-A45F-3017A3280728}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958} = {9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LAARICP_Lib", "LAARICPLib\LAARICPLib.vcxproj", "{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LAARICP_TEST", "LAARICP_TEST\LAARICP_TEST.vcxproj", "{226BA847-472E-4B05-8ACB-F18E6C9210CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958} = {9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,22 @@ Global
 		{AB24DB8C-E3CB-42A7-A45F-3017A3280728}.Release|x64.Build.0 = Release|x64
 		{AB24DB8C-E3CB-42A7-A45F-3017A3280728}.Release|x86.ActiveCfg = Release|Win32
 		{AB24DB8C-E3CB-42A7-A45F-3017A3280728}.Release|x86.Build.0 = Release|Win32
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Debug|x64.ActiveCfg = Debug|x64
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Debug|x64.Build.0 = Debug|x64
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Debug|x86.Build.0 = Debug|Win32
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Release|x64.ActiveCfg = Release|x64
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Release|x64.Build.0 = Release|x64
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Release|x86.ActiveCfg = Release|Win32
+		{9A8CE7B6-6CEC-44AB-8628-11D02F5A5958}.Release|x86.Build.0 = Release|Win32
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Debug|x64.ActiveCfg = Debug|x64
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Debug|x64.Build.0 = Debug|x64
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Debug|x86.Build.0 = Debug|Win32
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Release|x64.ActiveCfg = Release|x64
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Release|x64.Build.0 = Release|x64
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Release|x86.ActiveCfg = Release|Win32
+		{226BA847-472E-4B05-8ACB-F18E6C9210CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
