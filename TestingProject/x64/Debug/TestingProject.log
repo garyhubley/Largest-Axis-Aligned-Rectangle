@@ -1,0 +1,39 @@
+﻿Build started 2017-01-20 4:12:31 PM.
+     1>Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\TestingProject\TestingProject.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\TestingProject.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /I"C:\OpenCV-3.1.0\opencv\build\include" /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\TestingProject.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /FC /errorReport:prompt Find_Path_Tests.cpp Full_Algorithm_Tests.cpp Intersect_Point_Slope_Tests.cpp LineLineIntersect_2D_Tests.cpp MaxRectBetween2Segments_Tests.cpp Max_Interior_Rect_Polyline_Segment.cpp Sectionalize_Polygon_Tests.cpp Find_Extreme_Values_Tests.cpp
+         Full_Algorithm_Tests.cpp
+         Generating Code...
+         Compiling...
+         Find_Extreme_Values_Tests.cpp
+         Sectionalize_Polygon_Tests.cpp
+         Max_Interior_Rect_Polyline_Segment.cpp
+         MaxRectBetween2Segments_Tests.cpp
+         LineLineIntersect_2D_Tests.cpp
+         Intersect_Point_Slope_Tests.cpp
+         Find_Path_Tests.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\lib" /LIBPATH:C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug Library.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.lib" /MACHINE:X64 /DLL x64\Debug\Find_Path_Tests.obj
+         x64\Debug\Full_Algorithm_Tests.obj
+         x64\Debug\Intersect_Point_Slope_Tests.obj
+         x64\Debug\LineLineIntersect_2D_Tests.obj
+         x64\Debug\MaxRectBetween2Segments_Tests.obj
+         x64\Debug\Max_Interior_Rect_Polyline_Segment.obj
+         x64\Debug\Sectionalize_Polygon_Tests.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Find_Extreme_Values_Tests.obj
+            Creating library C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.lib and object C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.exp
+         TestingProject.vcxproj -> C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.dll
+         TestingProject.vcxproj -> C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\x64\Debug\TestingProject.pdb (Partial PDB)
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\TestingProject.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\TestingProject.tlog\TestingProject.lastbuildstate".
+     1>Done Building Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\TestingProject\TestingProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.94

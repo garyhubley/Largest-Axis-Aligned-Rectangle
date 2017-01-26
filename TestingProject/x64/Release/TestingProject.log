@@ -1,0 +1,26 @@
+﻿Build started 2017-01-20 12:37:23 PM.
+     1>Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\TestingProject\TestingProject.vcxproj" on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\TestingProject.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\TestingProject.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /FC /errorReport:prompt Find_Path_Tests.cpp Intersect_Point_Slope_Tests.cpp LineLineIntersect_2D_Tests.cpp MaxRectBetween2Segments_Tests.cpp Max_Interior_Rect_Polyline_Segment.cpp Sectionalize_Polygon_Tests.cpp Find_Extreme_Values_Tests.cpp
+         Find_Path_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\library\library.h(3): fatal error C1083: Cannot open include file: 'opencv2/core/mat.hpp': No such file or directory
+         Intersect_Point_Slope_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\testingproject\intersect_point_slope_tests.cpp(3): fatal error C1083: Cannot open include file: 'opencv2/imgproc.hpp': No such file or directory
+         LineLineIntersect_2D_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\testingproject\linelineintersect_2d_tests.cpp(3): fatal error C1083: Cannot open include file: 'opencv2/imgproc.hpp': No such file or directory
+         MaxRectBetween2Segments_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\library\library.h(3): fatal error C1083: Cannot open include file: 'opencv2/core/mat.hpp': No such file or directory
+         Max_Interior_Rect_Polyline_Segment.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\library\library.h(3): fatal error C1083: Cannot open include file: 'opencv2/core/mat.hpp': No such file or directory
+         Sectionalize_Polygon_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\testingproject\sectionalize_polygon_tests.cpp(3): fatal error C1083: Cannot open include file: 'opencv2/imgproc.hpp': No such file or directory
+         Find_Extreme_Values_Tests.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\testingproject\find_extreme_values_tests.cpp(3): fatal error C1083: Cannot open include file: 'opencv2/imgproc.hpp': No such file or directory
+     1>Done Building Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\TestingProject\TestingProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.91
