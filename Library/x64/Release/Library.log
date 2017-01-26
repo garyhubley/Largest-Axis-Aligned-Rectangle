@@ -1,0 +1,13 @@
+﻿Build started 2017-01-20 12:37:23 PM.
+     1>Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\Library\Library.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\Library.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\Library.pdb" /Gd /TP /errorReport:prompt Library.cpp
+         Library.cpp
+     1>c:\users\garyhubley.provair\documents\projects\rectangleinpolygon\library\Library.h(3): fatal error C1083: Cannot open include file: 'opencv2/core/mat.hpp': No such file or directory
+     1>Done Building Project "C:\Users\garyhubley.PROVAIR\Documents\Projects\RectangleInPolygon\Library\Library.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32
