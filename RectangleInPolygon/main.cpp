@@ -48,7 +48,6 @@ int main() {
   std::vector< std::vector< cv::Point2i > > sections( 4 );
   std::vector< int > res( 4 );
 
-  cv::Matx33f affine_matrix1, affine_matrix2;
   cv::Mat frame( FRAME_SZ, FRAME_SZ, CV_8UC3, BLACK );
   float max_area=0.f;
   std::vector< cv::Point2f > largest_rect;
