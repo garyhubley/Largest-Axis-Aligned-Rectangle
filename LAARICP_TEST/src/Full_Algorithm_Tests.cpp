@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 #include "opencv2/imgproc.hpp"
 
-#include "../Library/Library.h"
+#include "LAARICP_Lib.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 

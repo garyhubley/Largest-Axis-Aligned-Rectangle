@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 
-#include "../Library/Library.h"
+#include "LAARICP_Lib.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
